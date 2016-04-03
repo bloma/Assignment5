@@ -31,7 +31,9 @@ public class Actors implements Serializable{
     }
 
     private Actors(Builder builder){
-
+        this.actorsName=builder.actorsName;
+        this.actorsSurname=builder.actorsSurname;
+        this.role=builder.role;
     }
 
     public static class Builder{

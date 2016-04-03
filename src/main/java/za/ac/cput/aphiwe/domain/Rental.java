@@ -36,6 +36,72 @@ public class Rental {
         return renatalPayment;
     }
 
+    private Rental(Builder builder) {
+        this.rentalNumber = builder.rentalNumber;
+        this.rentalDate = builder.rentalDate;
+        this.rentedMovie = builder.rentedMovie;
+        this.renatalPayment = builder.renatalPayment;
+    }
+
+    public static class Builder{
+        private int rentalNumber;
+        private Date rentalDate;
+        private Movie rentedMovie;
+        private Payments renatalPayment;
+
+        public Builder rentalNumber(int value){
+            this.rentalNumber = value;
+            return this;
+        }
+        public Builder rentalDate(Date value){
+            this.rentalDate = value;
+            return this;
+        }
+        public Builder description(Movie value){
+            this.rentedMovie = value;
+            return this;
+        }
+        public Builder rentalPayment(Payments value){
+           this.renatalPayment=value;
+            return this;
+        }
+
+        public Builder copy(Rental value) {
+            this.rentalNumber = value.rentalNumber;
+            this.rentalDate = value.rentalDate;
+            this.renatalPayment = value.renatalPayment;
+            this.rentedMovie = value.rentedMovie;
+            return this;
+        }
+
+        public Rental build() {
+            return new Rental(this);
+        }
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Rental rental = (Rental) o;
+
+        if (rentalNumber != rental.rentalNumber) return false;
+        if (!rentalDate.equals(rental.rentalDate)) return false;
+        if (!rentedMovie.equals(rental.rentedMovie)) return false;
+        return renatalPayment.equals(rental.renatalPayment);
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = rentalNumber;
+        result = 31 * result + rentalDate.hashCode();
+        result = 31 * result + rentedMovie.hashCode();
+        result = 31 * result + renatalPayment.hashCode();
+        return result;
+    }
+
     @Override
     public String toString() {
         return "Rental{" +

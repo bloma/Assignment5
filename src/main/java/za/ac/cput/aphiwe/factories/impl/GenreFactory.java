@@ -8,7 +8,7 @@ import java.util.UUID;
 /**
  * Created by Aphish on 2016/04/02.
  */
-public class GenreFactory {
+public class GenreFactory{
 
     private static GenreFactory genreFactory = null;
 

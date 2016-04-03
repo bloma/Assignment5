@@ -2,9 +2,6 @@ package za.ac.cput.aphiwe.domain;
 
 import za.ac.cput.aphiwe.factories.Genre;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Created by Aphish on 2016/04/02.
  */
@@ -21,12 +18,4 @@ public class AdventureMovie extends Genre {
         return "No movie";
     }
 
-    public List<String> getMovieList (){
-        List<String> adventureMovies = new ArrayList<String>();
-        adventureMovies.add("Spectre");
-        adventureMovies.add("Mechanic");
-        adventureMovies.add("JohnWick");
-
-        return adventureMovies;
-    }
 }

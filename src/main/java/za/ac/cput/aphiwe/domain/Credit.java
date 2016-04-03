@@ -7,7 +7,7 @@ import za.ac.cput.aphiwe.factories.Payments;
  */
 public class Credit implements Payments {
 
-    public String setNextRentalPayment(String name) {
-        return name;
+    public Rental setNextRentalPayment(String name) {
+        return null;
     }
 }
