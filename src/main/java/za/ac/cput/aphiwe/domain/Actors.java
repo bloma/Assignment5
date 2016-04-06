@@ -30,6 +30,8 @@ public class Actors implements Serializable{
         return role;
     }
 
+    public Actors(){}
+
     private Actors(Builder builder){
         this.actorsName=builder.actorsName;
         this.actorsSurname=builder.actorsSurname;

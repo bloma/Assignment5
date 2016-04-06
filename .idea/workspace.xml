@@ -2,49 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fa907d9-14d7-41d4-ac77-b636e9218d20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/App.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/domain/ActionMovie.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/domain/Actors$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/domain/Actors$Builder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/domain/Actors.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/domain/AdventureMovie.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/domain/Animation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/domain/Cash.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/domain/Credit.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/domain/HorrorMovie.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/domain/MainActor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/domain/Movie.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/domain/Rental.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/domain/RomanceMovie.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/domain/VilanActor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/factories/Genre$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/factories/Genre$Builder$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/factories/Genre$Builder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/factories/Genre.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/factories/Payments.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/factories/Role.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/factories/impl/ActorsFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/factories/impl/GenreFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/factories/impl/PaymentsFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/aphiwe/factories/impl/RoleFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/aphiwe/ActorsTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/aphiwe/AppTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/aphiwe/PaymentTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/TestRoles.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/MovieFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/RentalFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/TestMovies.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/TestRental.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Actors.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Actors.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Credit.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Credit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/MainActor.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/MainActor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Movie.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Movie.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Rental.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Rental.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/VilanActor.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/VilanActor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/Payments.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/Payments.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/Role.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/Role.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/ActorsFactory.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/ActorsFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/GenreFactory.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/GenreFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/PaymentsFactory.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/PaymentsFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/RoleFactory.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/RoleFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/ActorsTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/ActorsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/PaymentTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/PaymentTest.java" />
     </list>
     <ignored path="assignment5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,69 +35,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GenreFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/GenreFactory.java">
+      <file leaf-file-name="Rental.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Rental.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="234">
+              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding>
-                <element signature="method#GenreFactory#0;class#GenreFactory#0" expanded="false" />
-                <element signature="method#getInstance#0;class#GenreFactory#0" expanded="false" />
-                <element signature="method#getGenre#0;class#GenreFactory#0" expanded="false" />
-                <element signature="method#setUpChain#0;class#GenreFactory#0" expanded="false" />
-                <element signature="method#createGenre#0;class#GenreFactory#0" expanded="false" />
+                <element signature="method#Rental#0;class#Rental#0" expanded="false" />
+                <element signature="method#Rental#1;class#Rental#0" expanded="false" />
+                <element signature="method#rentalNumber#0;class#Builder#0;class#Rental#0" expanded="false" />
+                <element signature="method#rentalDate#0;class#Builder#0;class#Rental#0" expanded="false" />
+                <element signature="method#description#0;class#Builder#0;class#Rental#0" expanded="false" />
+                <element signature="method#rentalPayment#0;class#Builder#0;class#Rental#0" expanded="false" />
+                <element signature="method#copy#0;class#Builder#0;class#Rental#0" expanded="false" />
+                <element signature="method#equals#0;class#Rental#0" expanded="false" />
+                <element signature="method#hashCode#0;class#Rental#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActorsFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/ActorsFactory.java">
+      <file leaf-file-name="RentalFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/RentalFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="30" column="5" selection-start-line="22" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#ActorsFactory#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/Role.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="180">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Actors.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Actors.java">
+      <file leaf-file-name="ActorsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/ActorsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+            <state relative-caret-position="442">
+              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
               <folding>
-                <element signature="method#Actors#0;class#Actors#0" expanded="false" />
-                <element signature="method#copy#0;class#Builder#0;class#Actors#0" expanded="false" />
-                <element signature="method#hashCode#0;class#Actors#0" expanded="false" />
-                <element signature="method#toString#0;class#Actors#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PaymentsFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/PaymentsFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding>
-                <element signature="method#getInstance#0;class#PaymentsFactory#0" expanded="false" />
-                <element signature="method#getPayment#0;class#PaymentsFactory#0" expanded="false" />
-                <element signature="method#createPayment#0;class#PaymentsFactory#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,52 +80,28 @@
       <file leaf-file-name="PaymentTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/PaymentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="335">
               <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rental.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Rental.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-              <folding>
-                <element signature="method#Rental#0;class#Rental#0" expanded="false" />
-                <element signature="method#Rental#1;class#Rental#0" expanded="false" />
-                <element signature="class#Builder#0;class#Rental#0" expanded="false" />
-                <element signature="method#copy#0;class#Builder#0;class#Rental#0" expanded="false" />
-                <element signature="method#equals#0;class#Rental#0" expanded="false" />
-                <element signature="method#hashCode#0;class#Rental#0" expanded="false" />
-                <element signature="method#toString#0;class#Rental#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/RoleFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-              <folding>
-                <element signature="method#getInstance#0;class#RoleFactory#0" expanded="false" />
-                <element signature="method#getActorRole#0;class#RoleFactory#0" expanded="false" />
-                <element signature="method#createRole#0;class#RoleFactory#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestRoles.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestRoles.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/TestRoles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+            <state relative-caret-position="234">
+              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMovies.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/TestMovies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,12 +109,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="TestRental.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/TestRental.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/MainActor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/MovieFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getInstance#0;class#MovieFactory#0" expanded="false" />
+                <element signature="method#createMovie#0;class#MovieFactory#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentsFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/PaymentsFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="method#getInstance#0;class#PaymentsFactory#0" expanded="false" />
+                <element signature="method#getPayment#0;class#PaymentsFactory#0" expanded="false" />
+                <element signature="method#createPayment#0;class#PaymentsFactory#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -232,35 +192,39 @@
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/Adventure.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Genre.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/PaymentsFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/RoleFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/GenreFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/ActorsFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Payments.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Cash.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/Genre.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/Genre.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/HorrorMovie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/ActionMovie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/AdventureMovie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Animation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/RomanceMovie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Actors.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/ActorsFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/ActorsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/VilanActor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/MainActor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Credit.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/GenreFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/Payments.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/PaymentsFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/PaymentTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Rental.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/RoleFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Animation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/AdventureMovie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/HorrorMovie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Cash.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/ActionMovie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/RomanceMovie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Credit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/PaymentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Actors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/MovieFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/MainActor.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/TestRoles.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/TestMovies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Rental.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/RentalFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/TestRental.java" />
       </list>
     </option>
   </component>
@@ -293,7 +257,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -311,9 +275,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -487,14 +451,14 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/onlinecomments-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aphish\IdeaProjects\assignment5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ActorsTest.testRoleCreation">
+  <component name="RunManager" selected="JUnit.TestRoles.testRoleUpdate">
     <configuration default="false" name="ActorsTest.testRoleCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -508,6 +472,58 @@
       <option name="PACKAGE_NAME" value="za.ac.cput.aphiwe" />
       <option name="MAIN_CLASS_NAME" value="za.ac.cput.aphiwe.ActorsTest" />
       <option name="METHOD_NAME" value="testRoleCreation" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ActorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="za.ac.cput.aphiwe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="assignment5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="za.ac.cput.aphiwe" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.aphiwe.ActorsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestRoles.testRoleUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="za.ac.cput.aphiwe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="assignment5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="za.ac.cput.aphiwe" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.aphiwe.TestRoles" />
+      <option name="METHOD_NAME" value="testRoleUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -935,12 +951,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ActorsTest.testRoleCreation" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ActorsTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestRoles.testRoleUpdate" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ActorsTest.testRoleCreation" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestRoles.testRoleUpdate" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ActorsTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ActorsTest.testRoleCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -966,17 +986,28 @@
       <workItem from="1459616103755" duration="12588000" />
       <workItem from="1459675568457" duration="16552000" />
       <workItem from="1459695295921" duration="878000" />
-      <workItem from="1459717580559" duration="6248000" />
+      <workItem from="1459717580559" duration="7229000" />
+      <workItem from="1459885237674" duration="2615000" />
+      <workItem from="1459975242948" duration="3732000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="ActorsTest - 2016.04.06 at 23h 10m 10s.xml">
+      <configuration name="ActorsTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ActorsTest_testRoleCreation - 2016.04.03 at 23h 39m 58s.xml">
       <configuration name="ActorsTest.testRoleCreation" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestRoles_testRoleUpdate - 2016.04.06 at 23h 19m 58s.xml">
+      <configuration name="TestRoles.testRoleUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRoles_testRoleUpdate - 2016.04.06 at 23h 22m 53s.xml">
+      <configuration name="TestRoles.testRoleUpdate" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50647000" />
+    <option name="totallyTimeSpent" value="57975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="697" height="735" extended-state="0" />
@@ -984,18 +1015,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32492113" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32392028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3420622" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33887044" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34053156" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3432836" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.422292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42386186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1058,11 +1089,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/Adventure.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/Horror.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/Action.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/Comedy.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/Romance.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1112,221 +1138,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/README.md" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/HorrorMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#getMovieList#0;class#HorrorMovie#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/AdventureMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#getMovieList#0;class#AdventureMovie#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Animation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/RomanceMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/ActorsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/VilanActor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#226#227#0" expanded="false" />
-            <element signature="e#253#254#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/MainActor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#225#226#0" expanded="false" />
-            <element signature="e#252#253#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/ActionMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="method#Genre#2;class#Genre#0" expanded="false" />
-            <element signature="class#Builder#0;class#Genre#0" expanded="false" />
-            <element signature="method#nextGenre#0;class#Builder#0;class#Genre#0" expanded="false" />
-            <element signature="method#genreName#0;class#Builder#0;class#Genre#0" expanded="false" />
-            <element signature="class#1203:1345" expanded="false" />
-            <element signature="method#equals#0;class#Genre#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Cash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Credit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/Payments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/GenreFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="method#GenreFactory#0;class#GenreFactory#0" expanded="false" />
-            <element signature="method#getInstance#0;class#GenreFactory#0" expanded="false" />
-            <element signature="method#getGenre#0;class#GenreFactory#0" expanded="false" />
-            <element signature="method#setUpChain#0;class#GenreFactory#0" expanded="false" />
-            <element signature="method#createGenre#0;class#GenreFactory#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/PaymentsFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="method#getInstance#0;class#PaymentsFactory#0" expanded="false" />
-            <element signature="method#getPayment#0;class#PaymentsFactory#0" expanded="false" />
-            <element signature="method#createPayment#0;class#PaymentsFactory#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/PaymentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Rental.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-          <folding>
-            <element signature="method#Rental#0;class#Rental#0" expanded="false" />
-            <element signature="method#Rental#1;class#Rental#0" expanded="false" />
-            <element signature="class#Builder#0;class#Rental#0" expanded="false" />
-            <element signature="method#copy#0;class#Builder#0;class#Rental#0" expanded="false" />
-            <element signature="method#equals#0;class#Rental#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Rental#0" expanded="false" />
-            <element signature="method#toString#0;class#Rental#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Actors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-          <folding>
-            <element signature="method#Actors#0;class#Actors#0" expanded="false" />
-            <element signature="method#copy#0;class#Builder#0;class#Actors#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Actors#0" expanded="false" />
-            <element signature="method#toString#0;class#Actors#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/ActorsFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="30" column="5" selection-start-line="22" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#ActorsFactory#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1338,11 +1154,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/RomanceMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/HorrorMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/ActionMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/AdventureMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/Payments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/RoleFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="204">
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="method#getInstance#0;class#RoleFactory#0" expanded="false" />
             <element signature="method#getActorRole#0;class#RoleFactory#0" expanded="false" />
             <element signature="method#createRole#0;class#RoleFactory#0" expanded="false" />
@@ -1350,13 +1234,191 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/TestRoles.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/ActorsFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+        <state relative-caret-position="119">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#ActorsFactory#0" expanded="false" />
+            <element signature="method#getInstance#0;class#ActorsFactory#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/GenreFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="method#GenreFactory#0;class#GenreFactory#0" expanded="false" />
+            <element signature="method#getInstance#0;class#GenreFactory#0" expanded="false" />
+            <element signature="method#getGenre#0;class#GenreFactory#0" expanded="false" />
+            <element signature="method#setUpChain#0;class#GenreFactory#0" expanded="false" />
+            <element signature="method#createGenre#0;class#GenreFactory#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Cash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Actors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="method#Actors#0;class#Actors#0" expanded="false" />
+            <element signature="method#Actors#2;class#Actors#0" expanded="false" />
+            <element signature="class#Builder#0;class#Actors#0" expanded="false" />
+            <element signature="method#copy#0;class#Builder#0;class#Actors#0" expanded="false" />
+            <element signature="method#equals#0;class#Actors#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Actors#0" expanded="false" />
+            <element signature="method#toString#0;class#Actors#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Credit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="method#Movie#0;class#Movie#0" expanded="false" />
+            <element signature="method#Movie#2;class#Movie#0" expanded="false" />
+            <element signature="class#Builder#0;class#Movie#0" expanded="false" />
+            <element signature="method#movieName#0;class#Builder#0;class#Movie#0" expanded="false" />
+            <element signature="method#realesDate#0;class#Builder#0;class#Movie#0" expanded="false" />
+            <element signature="method#movieDuration#0;class#Builder#0;class#Movie#0" expanded="false" />
+            <element signature="method#movieDescription#0;class#Builder#0;class#Movie#0" expanded="false" />
+            <element signature="method#genre#0;class#Builder#0;class#Movie#0" expanded="false" />
+            <element signature="method#copy#0;class#Builder#0;class#Movie#0" expanded="false" />
+            <element signature="method#equals#0;class#Movie#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Movie#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/PaymentsFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="method#getInstance#0;class#PaymentsFactory#0" expanded="false" />
+            <element signature="method#getPayment#0;class#PaymentsFactory#0" expanded="false" />
+            <element signature="method#createPayment#0;class#PaymentsFactory#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/MovieFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getInstance#0;class#MovieFactory#0" expanded="false" />
+            <element signature="method#createMovie#0;class#MovieFactory#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/PaymentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/MainActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/TestRoles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/domain/Rental.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding>
+            <element signature="method#Rental#0;class#Rental#0" expanded="false" />
+            <element signature="method#Rental#1;class#Rental#0" expanded="false" />
+            <element signature="method#rentalNumber#0;class#Builder#0;class#Rental#0" expanded="false" />
+            <element signature="method#rentalDate#0;class#Builder#0;class#Rental#0" expanded="false" />
+            <element signature="method#description#0;class#Builder#0;class#Rental#0" expanded="false" />
+            <element signature="method#rentalPayment#0;class#Builder#0;class#Rental#0" expanded="false" />
+            <element signature="method#copy#0;class#Builder#0;class#Rental#0" expanded="false" />
+            <element signature="method#equals#0;class#Rental#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Rental#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/TestMovies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/ActorsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/aphiwe/TestRental.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/aphiwe/factories/impl/RentalFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>

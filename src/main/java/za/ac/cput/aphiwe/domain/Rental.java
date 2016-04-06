@@ -2,12 +2,13 @@ package za.ac.cput.aphiwe.domain;
 
 import za.ac.cput.aphiwe.factories.Payments;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by Aphish on 2016/04/02.
  */
-public class Rental {
+public class Rental implements Serializable{
     private int rentalNumber;
     private Date rentalDate;
     private Movie rentedMovie;
@@ -102,13 +103,4 @@ public class Rental {
         return result;
     }
 
-    @Override
-    public String toString() {
-        return "Rental{" +
-                "rentalNumber=" + rentalNumber +
-                ", rentalDate=" + rentalDate +
-                ", rentedMovie=" + rentedMovie +
-                ", renatalPayment=" + renatalPayment +
-                '}';
-    }
 }
