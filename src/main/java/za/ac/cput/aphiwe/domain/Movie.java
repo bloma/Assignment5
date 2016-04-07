@@ -1,9 +1,6 @@
 package za.ac.cput.aphiwe.domain;
 
-import za.ac.cput.aphiwe.factories.Genre;
-
 import java.io.Serializable;
-import java.sql.Time;
 import java.util.Date;
 
 /**
@@ -12,17 +9,10 @@ import java.util.Date;
 public class Movie implements Serializable{
     private String movieName;
     private Date releaseDate;
-    private Time movieDuration;
+    private String movieDuration;
     private String movieDescription;
     private Genre genre;
 
-    public Movie(String movieName, Date releaseDate, Time movieDuration, String movieDescription,Genre genre) {
-        this.movieName = movieName;
-        this.releaseDate = releaseDate;
-        this.movieDuration = movieDuration;
-        this.movieDescription = movieDescription;
-        this.genre = genre;
-    }
 
     public String getMovieName() {
         return movieName;
@@ -32,7 +22,7 @@ public class Movie implements Serializable{
         return releaseDate;
     }
 
-    public Time getMovieDuration() {
+    public String getMovieDuration() {
         return movieDuration;
     }
 
@@ -57,7 +47,7 @@ public class Movie implements Serializable{
     public static class Builder{
         private String movieName;
         private Date releaseDate;
-        private Time movieDuration;
+        private String movieDuration;
         private String movieDescription;
         private Genre genre;
 
@@ -71,7 +61,7 @@ public class Movie implements Serializable{
             return this;
         }
 
-        public Builder movieDuration(Time value){
+        public Builder movieDuration(String value){
             this.movieDuration = value;
             return this;
         }

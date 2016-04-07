@@ -1,4 +1,4 @@
-package za.ac.cput.aphiwe.factories;
+package za.ac.cput.aphiwe.domain;
 
 /**
  * Created by Aphish on 2016/04/02.

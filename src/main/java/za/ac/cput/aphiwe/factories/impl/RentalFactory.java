@@ -1,5 +1,10 @@
 package za.ac.cput.aphiwe.factories.impl;
 
+import za.ac.cput.aphiwe.domain.Rental;
+
+import java.util.Date;
+import java.util.UUID;
+
 /**
  * Created by Aphish on 2016/04/06.
  */
@@ -14,15 +19,13 @@ public class RentalFactory {
         return factory;
     }
 
-   /* public Rental createRental(int rentNumber, Date date, String descript, Payments pay){
-
+   public Rental createRental( String pay){
         Rental rent = new Rental
                 .Builder()
                 .rentalNumber(UUID.randomUUID().toString())
-                .rentalDate(date)
+                .rentalDate(new Date())
                 .rentalPayment(pay)
-                .description(descript)
                 .build();
         return rent;
-    }*/
+    }
 }

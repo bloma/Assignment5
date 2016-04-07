@@ -1,7 +1,7 @@
 package za.ac.cput.aphiwe.factories.impl;
 
 import za.ac.cput.aphiwe.domain.*;
-import za.ac.cput.aphiwe.factories.Genre;
+import za.ac.cput.aphiwe.domain.Genre;
 
 import java.util.UUID;
 

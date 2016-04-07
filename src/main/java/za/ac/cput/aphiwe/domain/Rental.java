@@ -1,7 +1,5 @@
 package za.ac.cput.aphiwe.domain;
 
-import za.ac.cput.aphiwe.factories.Payments;
-
 import java.io.Serializable;
 import java.util.Date;
 
@@ -9,19 +7,14 @@ import java.util.Date;
  * Created by Aphish on 2016/04/02.
  */
 public class Rental implements Serializable{
-    private int rentalNumber;
+    private String rentalNumber;
     private Date rentalDate;
     private Movie rentedMovie;
-    private Payments renatalPayment;
+    private String rentalPaymentId;
 
-    public Rental(int rentalNumber, Date rentalDate, Movie rentedMovie, Payments renatalPayment) {
-        this.rentalNumber = rentalNumber;
-        this.rentalDate = rentalDate;
-        this.rentedMovie = rentedMovie;
-        this.renatalPayment = renatalPayment;
-    }
+   private Rental(){}
 
-    public int getRentalNumber() {
+    public String getRentalNumber() {
         return rentalNumber;
     }
 
@@ -33,24 +26,24 @@ public class Rental implements Serializable{
         return rentedMovie;
     }
 
-    public Payments getRenatalPayment() {
-        return renatalPayment;
+    public String getRentalPaymentId() {
+        return rentalPaymentId;
     }
 
-    private Rental(Builder builder) {
+    public Rental(Builder builder) {
         this.rentalNumber = builder.rentalNumber;
         this.rentalDate = builder.rentalDate;
         this.rentedMovie = builder.rentedMovie;
-        this.renatalPayment = builder.renatalPayment;
+        this.rentalPaymentId = builder.rentalPaymentId;
     }
 
     public static class Builder{
-        private int rentalNumber;
+        private String rentalNumber;
         private Date rentalDate;
         private Movie rentedMovie;
-        private Payments renatalPayment;
+        private String rentalPaymentId;
 
-        public Builder rentalNumber(int value){
+        public Builder rentalNumber(String value){
             this.rentalNumber = value;
             return this;
         }
@@ -62,15 +55,15 @@ public class Rental implements Serializable{
             this.rentedMovie = value;
             return this;
         }
-        public Builder rentalPayment(Payments value){
-           this.renatalPayment=value;
+        public Builder rentalPayment(String value){
+           this.rentalPaymentId =value;
             return this;
         }
 
         public Builder copy(Rental value) {
             this.rentalNumber = value.rentalNumber;
             this.rentalDate = value.rentalDate;
-            this.renatalPayment = value.renatalPayment;
+            this.rentalPaymentId = value.rentalPaymentId;
             this.rentedMovie = value.rentedMovie;
             return this;
         }
@@ -79,6 +72,8 @@ public class Rental implements Serializable{
             return new Rental(this);
         }
     }
+     public static Builder builder(){return new Builder();
+}
 
     @Override
     public boolean equals(Object o) {
@@ -87,20 +82,12 @@ public class Rental implements Serializable{
 
         Rental rental = (Rental) o;
 
-        if (rentalNumber != rental.rentalNumber) return false;
-        if (!rentalDate.equals(rental.rentalDate)) return false;
-        if (!rentedMovie.equals(rental.rentedMovie)) return false;
-        return renatalPayment.equals(rental.renatalPayment);
+        return rentalNumber != null ? rentalNumber.equals(rental.rentalNumber) : rental.rentalNumber == null;
 
     }
 
     @Override
     public int hashCode() {
-        int result = rentalNumber;
-        result = 31 * result + rentalDate.hashCode();
-        result = 31 * result + rentedMovie.hashCode();
-        result = 31 * result + renatalPayment.hashCode();
-        return result;
+        return rentalNumber != null ? rentalNumber.hashCode() : 0;
     }
-
 }

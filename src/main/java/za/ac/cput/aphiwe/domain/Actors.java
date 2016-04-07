@@ -1,7 +1,5 @@
 package za.ac.cput.aphiwe.domain;
 
-import za.ac.cput.aphiwe.factories.Role;
-
 import java.io.Serializable;
 
 /**
@@ -36,6 +34,7 @@ public class Actors implements Serializable{
         this.actorsName=builder.actorsName;
         this.actorsSurname=builder.actorsSurname;
         this.role=builder.role;
+
     }
 
     public static class Builder{

@@ -1,9 +1,8 @@
 package za.ac.cput.aphiwe.factories.impl;
 
+import za.ac.cput.aphiwe.domain.Genre;
 import za.ac.cput.aphiwe.domain.Movie;
-import za.ac.cput.aphiwe.factories.Genre;
 
-import java.sql.Time;
 import java.util.Date;
 import java.util.UUID;
 
@@ -21,13 +20,13 @@ public class MovieFactory {
         return factory;
     }
 
-    public Movie createMovie(String name, Date date, Time time, String description, Genre genre){
+    public Movie createMovie(String time, String description, Genre genre){
         Movie movie = new Movie
                 .Builder()
                 .movieName(UUID.randomUUID().toString())
                 .movieDuration(time)
                 .movieDescription(description)
-                .realesDate(date)
+                .realesDate(new Date())
                 .genre(genre)
                 .build();
         return movie;

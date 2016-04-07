@@ -1,32 +1,33 @@
 package za.ac.cput.aphiwe;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import za.ac.cput.aphiwe.domain.Cash;
 import za.ac.cput.aphiwe.domain.Rental;
-import za.ac.cput.aphiwe.factories.Payments;
-import za.ac.cput.aphiwe.factories.impl.PaymentsFactory;
-
-import java.util.Calendar;
-import java.util.GregorianCalendar;
+import za.ac.cput.aphiwe.factories.impl.RentalFactory;
 
 
 /**
  * Created by Aphish on 2016/04/03.
  */
 public class PaymentTest {
-private Payments factory;
+private RentalFactory rentalFactory;
     @Before
     public void setUp() throws Exception {
-    factory = PaymentsFactory.getInstance();
-
+        rentalFactory = RentalFactory.getInstance();
     }
 
     @Test
     public void testCashCreation() throws Exception {
-        Calendar today = new GregorianCalendar();
+        Cash cash = new Cash.Builder().PayID("Cash").build();
+        Rental rental = rentalFactory.createRental(cash.paymentType());
+        Assert.assertEquals("Credit",rental.getRentalPaymentId());
+        Assert.assertNotNull(rental.getRentedMovie());
+    }
 
-        Rental rental = factory.createPayment(today.getTime());
-        //Assert.assertEquals();
+    @Test
+    public void testCashUpdation() throws Exception {
 
     }
 }
